@@ -41,5 +41,14 @@ margin-top: 40px;
 margin-bottom: 40px;
 }
 .services {
-background: url(assets/);
+background: url(assets/s_image.jpg);
+background-size: cover;
+height: 200px;
 }
+.serin {
+text-align: center;
+color: white;
+}
+.serin h3 {
+padding-top: 50px;
+} 
