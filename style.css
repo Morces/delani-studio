@@ -10,7 +10,7 @@ width: 100%;
 height: 100vh;
 }
 .logo {
-width: 0%;
+width: 7%;
 margin: auto;
 }
 .welcome {
@@ -34,4 +34,9 @@ width: 0%;
 margin: auto;
 cursor: pointer;
 margin-top: 150px;
+}
+.about {
+text-align: center;
+margin-top: 40px;
+margin-bottom: 40px;
 }
