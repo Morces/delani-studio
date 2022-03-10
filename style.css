@@ -71,3 +71,17 @@ width: 40%;
 text-align: center;
 display: none;
 }
+.pot {
+text-align: center;
+margin-top: 20px;
+}
+.row {
+display: flex;
+flex-wrap: wrap;
+margin-left: 50px;
+margin-right: 50px;
+margin-top: 20px;
+}
+.colunm {
+flex: 25%;
+}
