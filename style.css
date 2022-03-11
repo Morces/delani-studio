@@ -90,20 +90,26 @@ flex: 20%;
 .contact {
 background: url(assets/c_image.jpg);
 background-size: cover;
+height: 60vh;
+width: 100%;
 margin-top: 50px;
 }
 .find {
-width: 40%;
+width: 70%;
+margin: auto;
+}
+form {
+width: 60%;
 margin: auto;
 }
 .find h3 {
 color: white;
 text-align: center;
+padding-top: 50px;
 }
 input {
 background-color: transparent;
 border: 1px solid white;
-margin-left: 10px;
 }
 textarea {
 width: 40vw;
@@ -125,4 +131,12 @@ width: 100px;
 background-color: transparent;
 color: white;
 border: 1px solid white;
+}
+.icons {
+width: 50%;
+margin: auto;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+margin-top: 30px;
 }
