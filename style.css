@@ -66,11 +66,9 @@ margin-top: 40px;
 margin-left: 50px;
 margin-right: 50px;
 }
-/* .design, .development, .promag {
-width: 40%;
-} */
 .description, .dev-des, .pro-des {
 text-align: center;
+width: 30%;
 display: none;
 }
 .pot {
@@ -80,8 +78,8 @@ margin-top: 20px;
 .row {
 display: flex;
 flex-wrap: wrap;
-margin-left: 70px;
-margin-right: 70px;
+margin-left: 100px;
+margin-right: 100px;
 margin-top: 20px;
 }
 .colunm {
@@ -90,7 +88,7 @@ flex: 20%;
 .contact {
 background: url(assets/c_image.jpg);
 background-size: cover;
-height: 60vh;
+height: 80vh;
 width: 100%;
 margin-top: 50px;
 }
@@ -99,7 +97,7 @@ width: 70%;
 margin: auto;
 }
 form {
-width: 60%;
+width: 80%;
 margin: auto;
 }
 .find h3 {
@@ -107,30 +105,41 @@ color: white;
 text-align: center;
 padding-top: 50px;
 }
-input {
+input.form-control {
 background-color: transparent;
 border: 1px solid white;
+width: 350px;
 }
-textarea {
-width: 40vw;
+.put {
+width: 100%;
+margin: auto;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+textarea.form-control {
+width: 54.5vw;
 margin-top: 20px;
-margin-left: 15px;
-height: 30vh;
+height: 35vh;
 border: 1px solid white;
 background-color: transparent;
 }
-textarea::placeholder {
+textarea.form-control::placeholder {
 color: white;
 }
-input::placeholder {
+input.form-control::placeholder {
 color: white;
+margin-left: 10px;
 }
 button {
-margin-left: 45%;
-width: 100px;
+margin-left: 40%;
+width: 120px;
+height: 40px;
 background-color: transparent;
 color: white;
 border: 1px solid white;
+border-radius: 5px;
+margin-top: 20px;
 }
 .icons {
 width: 50%;
@@ -139,6 +148,9 @@ display: flex;
 flex-wrap: wrap;
 justify-content: space-between;
 margin-top: 30px;
+}
+.icons img {
+cursor: pointer;
 }
 .regards {
 width: 20%;
