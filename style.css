@@ -2,6 +2,8 @@
 margin: 0;
 padding: 0;
 box-sizing: border-box;
+font-family: 'Open Sans', sans-serif;
+font-weight: 400;
 }
 .firstpage {
 background-image: url(assets/h_img.jpg);
@@ -83,7 +85,7 @@ margin-right: 100px;
 margin-top: 20px;
 }
 .colunm {
-flex: 20%;
+flex: 25%;
 }
 .contact {
 background: url(assets/c_image.jpg);
