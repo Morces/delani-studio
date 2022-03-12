@@ -70,8 +70,12 @@ margin-right: 50px;
 }
 .description, .dev-des, .pro-des {
 text-align: center;
+cursor: pointer;
 width: 30%;
 display: none;
+}
+.dicon {
+cursor: pointer;
 }
 .pot {
 text-align: center;
