@@ -63,19 +63,22 @@ margin-top: 20px;
 .do {
 display: flex;
 flex-wrap: wrap;
-justify-content: space-between;
+justify-content: space-around;
 margin-top: 40px;
-margin-left: 50px;
-margin-right: 50px;
 }
 .description, .dev-des, .pro-des {
 text-align: center;
 cursor: pointer;
-width: 30%;
+position: absolute;
+font-size: 0.7em;
+width: 20%;
 display: none;
 }
 .dicon {
 cursor: pointer;
+}
+.portfolio {
+margin-top: 140px;
 }
 .pot {
 text-align: center;
