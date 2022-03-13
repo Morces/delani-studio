@@ -11,4 +11,9 @@ $(document).ready(function() {
     $(".pmg").toggle();
     $(".pro-des").toggle();
   });
+
+  $(".project").hide();
+  $(".colunm img").hover(function() {
+    $(this).find(".project").toggle(500);
+  });
 });
