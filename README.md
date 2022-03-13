@@ -5,7 +5,7 @@ Delani studio is a portfolio that showcases the projects they've worked on.
 *Moringa School* MOSES KARANI
 ## Setup Requirements
 Internet Connection
-Link to the website : 
+Link to the website : https://moseskarani.github.io/delani-studio/
 ## Known Bugs
 None Yet
 ## Technologies used 
