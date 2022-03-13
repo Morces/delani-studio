@@ -103,39 +103,39 @@
     <div class="portfolio">
       <h3 class="pot">PORTFOLIO</h3>
     <div class="row">
-      <div class="colunm">
-        <img src="assets/work4.jpg" alt="" style="width:100%">
-        <div class="project"><p>Project Blank</p></div>
+      <div class="colunm" id="img1">
+        <img id="image" src="assets/work4.jpg" alt="" style="width:100%">
+        <div class="project" id="pb"><p>Project Blank</p></div>
       </div>
-      <div class="colunm">
+      <div class="colunm" id="img2">
         <img src="assets/work3.jpg" alt="" style="width:100%">
-        <div class="project"><p>Project Ontario</p></div>
+        <div class="project" id="po"><p>Project Ontario</p></div>
       </div>
-      <div class="colunm">
+      <div class="colunm" id="img3">
         <img src="assets/work2.jpg" alt="" style="width:100%">
-        <div class="project"><p>Project Graphics</p></div>
+        <div class="project" id="pg"><p>Project Graphics</p></div>
       </div>
-      <div class="colunm">
+      <div class="colunm" id="img4">
         <img src="assets/work1.jpg" alt="" style="width:100%">
-        <div class="project"><p>Project Jim Carrey</p></div>
+        <div class="project" id="pjc"><p>Project Jim Carrey</p></div>
       </div> 
     </div>
     <div class="row">
-      <div class="colunm">
+      <div class="colunm" id="img5">
         <img src="assets/work5.jpg" alt="" style="width:100%">
-        <div class="project"><p>Project Good Day</p></div>
+        <div class="project" id="pgd"><p>Project Good Day</p></div>
       </div>
-      <div class="colunm">
+      <div class="colunm" id="img6">
         <img src="assets/work6.jpg" alt="" style="width:100%">
-        <div class="project"><p>Project Button</p></div>
+        <div class="project" id="pbtn"><p>Project Button</p></div>
       </div>
-      <div class="colunm">
+      <div class="colunm" id="img7">
         <img src="assets/work7.jpg" alt="" style="width:100%">
-        <div class="project"><p>Project Burned</p></div>
+        <div class="project" id="pbur"><p>Project Burned</p></div>
       </div>
-      <div class="colunm">
+      <div class="colunm" id="img8">
         <img src="assets/work8.jpg" alt="" style="width:100%">
-        <div class="project"><p>Project Giraffe</p></div>
+        <div class="project" id="pgir"><p>Project Giraffe</p></div>
       </div> 
     </div>
     </div>
@@ -146,11 +146,11 @@
           <form action="https://formspree.io/f/mayvbyyy" 
           name="contacts" method="post" class="validate" target="_blank" novalidate>
             <div class="put">
-              <input type="text" class="form-control" placeholder="Name..." required>
-              <input type="email" class="form-control" placeholder="Email..." required>
+              <input name="your-name" type="text" class="form-control" placeholder="Name..." required>
+              <input name="email" type="email" class="form-control" placeholder="Email..." required>
             </div>
             <textarea name="message" class="form-control" id="message" cols="30" rows="10" placeholder="Your message here..."></textarea>
-            <button onclick="submit()">SUBMIT</button>
+            <button type="submit" onclick="submit()">SUBMIT</button>
           </form>
         </div>
       </div>

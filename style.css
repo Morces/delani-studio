@@ -93,13 +93,21 @@ margin-top: 20px;
 }
 .colunm {
 flex: 25%;
+position: relative;
+}
+.colunm img {
 cursor: pointer;
 }
 .project {
 position: absolute;
 text-align: center;
-top: 50%;
+top: 30%;
+left: 30%;
 transform: translate(-50% -50%);
+border: 1px black;
+background-color: black;
+color: white;
+display: none;
 }
 .contact {
 background: url(assets/c_image.jpg);
