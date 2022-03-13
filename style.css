@@ -95,18 +95,17 @@ margin-top: 20px;
 flex: 25%;
 position: relative;
 }
-.colunm img {
-cursor: pointer;
-}
 .project {
 position: absolute;
 text-align: center;
 top: 30%;
-left: 30%;
+left: 27%;
 transform: translate(-50% -50%);
-border: 1px black;
 background-color: black;
+border-radius: 10px;
+padding: 20px;
 color: white;
+cursor: pointer;
 display: none;
 }
 .contact {

@@ -53,10 +53,14 @@ $(document).ready(function() {
   }, function(){
     $('#pgir').css('display', 'none')
   });
-});
 
-// submit button 
+
+
+  // submit button 
 
 $("button:submit").click(function() {
-  alert("YOUR MESSEGE HAS BEEN BUMITTED SUCCESSFULLY!!")
+  alert("YOUR MESSEGE HAS BEEN SUBMITTED!!")
 });
+
+});
+
